@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		BC773AC82CF7B5750091D131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC773AAF2CF7B5740091D131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC773AB62CF7B5740091D131;
+			remoteInfo = "Wisdom Well";
+		};
+		BC773AD22CF7B5750091D131 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC773AAF2CF7B5740091D131 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC773AB62CF7B5740091D131;
+			remoteInfo = "Wisdom Well";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC773AB72CF7B5740091D131 /* Wisdom Well.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wisdom Well.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC773AC72CF7B5750091D131 /* Wisdom WellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wisdom WellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC773AD12CF7B5750091D131 /* Wisdom WellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wisdom WellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BC773AB92CF7B5740091D131 /* Wisdom Well */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Wisdom Well";
+			sourceTree = "<group>";
+		};
+		BC773ACA2CF7B5750091D131 /* Wisdom WellTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Wisdom WellTests";
+			sourceTree = "<group>";
+		};
+		BC773AD42CF7B5750091D131 /* Wisdom WellUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Wisdom WellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC773AB42CF7B5740091D131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC773AC42CF7B5750091D131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC773ACE2CF7B5750091D131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC773AAE2CF7B5740091D131 = {
+			isa = PBXGroup;
+			children = (
+				BC773AB92CF7B5740091D131 /* Wisdom Well */,
+				BC773ACA2CF7B5750091D131 /* Wisdom WellTests */,
+				BC773AD42CF7B5750091D131 /* Wisdom WellUITests */,
+				BC773AB82CF7B5740091D131 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC773AB82CF7B5740091D131 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC773AB72CF7B5740091D131 /* Wisdom Well.app */,
+				BC773AC72CF7B5750091D131 /* Wisdom WellTests.xctest */,
+				BC773AD12CF7B5750091D131 /* Wisdom WellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC773AB62CF7B5740091D131 /* Wisdom Well */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC773ADB2CF7B5750091D131 /* Build configuration list for PBXNativeTarget "Wisdom Well" */;
+			buildPhases = (
+				BC773AB32CF7B5740091D131 /* Sources */,
+				BC773AB42CF7B5740091D131 /* Frameworks */,
+				BC773AB52CF7B5740091D131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BC773AB92CF7B5740091D131 /* Wisdom Well */,
+			);
+			name = "Wisdom Well";
+			packageProductDependencies = (
+			);
+			productName = "Wisdom Well";
+			productReference = BC773AB72CF7B5740091D131 /* Wisdom Well.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC773AC62CF7B5750091D131 /* Wisdom WellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC773ADE2CF7B5750091D131 /* Build configuration list for PBXNativeTarget "Wisdom WellTests" */;
+			buildPhases = (
+				BC773AC32CF7B5750091D131 /* Sources */,
+				BC773AC42CF7B5750091D131 /* Frameworks */,
+				BC773AC52CF7B5750091D131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC773AC92CF7B5750091D131 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC773ACA2CF7B5750091D131 /* Wisdom WellTests */,
+			);
+			name = "Wisdom WellTests";
+			packageProductDependencies = (
+			);
+			productName = "Wisdom WellTests";
+			productReference = BC773AC72CF7B5750091D131 /* Wisdom WellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC773AD02CF7B5750091D131 /* Wisdom WellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC773AE12CF7B5750091D131 /* Build configuration list for PBXNativeTarget "Wisdom WellUITests" */;
+			buildPhases = (
+				BC773ACD2CF7B5750091D131 /* Sources */,
+				BC773ACE2CF7B5750091D131 /* Frameworks */,
+				BC773ACF2CF7B5750091D131 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC773AD32CF7B5750091D131 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BC773AD42CF7B5750091D131 /* Wisdom WellUITests */,
+			);
+			name = "Wisdom WellUITests";
+			packageProductDependencies = (
+			);
+			productName = "Wisdom WellUITests";
+			productReference = BC773AD12CF7B5750091D131 /* Wisdom WellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC773AAF2CF7B5740091D131 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					BC773AB62CF7B5740091D131 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					BC773AC62CF7B5750091D131 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BC773AB62CF7B5740091D131;
+					};
+					BC773AD02CF7B5750091D131 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = BC773AB62CF7B5740091D131;
+					};
+				};
+			};
+			buildConfigurationList = BC773AB22CF7B5740091D131 /* Build configuration list for PBXProject "Wisdom Well" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC773AAE2CF7B5740091D131;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BC773AB82CF7B5740091D131 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC773AB62CF7B5740091D131 /* Wisdom Well */,
+				BC773AC62CF7B5750091D131 /* Wisdom WellTests */,
+				BC773AD02CF7B5750091D131 /* Wisdom WellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC773AB52CF7B5740091D131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC773AC52CF7B5750091D131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC773ACF2CF7B5750091D131 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC773AB32CF7B5740091D131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC773AC32CF7B5750091D131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC773ACD2CF7B5750091D131 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC773AC92CF7B5750091D131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC773AB62CF7B5740091D131 /* Wisdom Well */;
+			targetProxy = BC773AC82CF7B5750091D131 /* PBXContainerItemProxy */;
+		};
+		BC773AD32CF7B5750091D131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC773AB62CF7B5740091D131 /* Wisdom Well */;
+			targetProxy = BC773AD22CF7B5750091D131 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC773AD92CF7B5750091D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC773ADA2CF7B5750091D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC773ADC2CF7B5750091D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wisdom Well/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aladin.Wisdom-Well";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC773ADD2CF7B5750091D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wisdom Well/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aladin.Wisdom-Well";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BC773ADF2CF7B5750091D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aladin.Wisdom-WellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wisdom Well.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wisdom Well";
+			};
+			name = Debug;
+		};
+		BC773AE02CF7B5750091D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aladin.Wisdom-WellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wisdom Well.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wisdom Well";
+			};
+			name = Release;
+		};
+		BC773AE22CF7B5750091D131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aladin.Wisdom-WellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wisdom Well";
+			};
+			name = Debug;
+		};
+		BC773AE32CF7B5750091D131 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aladin.Wisdom-WellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wisdom Well";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC773AB22CF7B5740091D131 /* Build configuration list for PBXProject "Wisdom Well" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC773AD92CF7B5750091D131 /* Debug */,
+				BC773ADA2CF7B5750091D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC773ADB2CF7B5750091D131 /* Build configuration list for PBXNativeTarget "Wisdom Well" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC773ADC2CF7B5750091D131 /* Debug */,
+				BC773ADD2CF7B5750091D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC773ADE2CF7B5750091D131 /* Build configuration list for PBXNativeTarget "Wisdom WellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC773ADF2CF7B5750091D131 /* Debug */,
+				BC773AE02CF7B5750091D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC773AE12CF7B5750091D131 /* Build configuration list for PBXNativeTarget "Wisdom WellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC773AE22CF7B5750091D131 /* Debug */,
+				BC773AE32CF7B5750091D131 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC773AAF2CF7B5740091D131 /* Project object */;
+}
