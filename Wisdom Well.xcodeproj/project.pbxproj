@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BCD2ACAF2CF90EE8000ABDEE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = BCD2ACAE2CF90EE8000ABDEE /* FirebaseAnalytics */; };
+		BCD2ACB12CF90EE8000ABDEE /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = BCD2ACB02CF90EE8000ABDEE /* FirebaseCore */; };
+		BCD2ACB32CF9198C000ABDEE /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = BCD2ACB22CF9198C000ABDEE /* FirebaseFunctions */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BC773AC82CF7B5750091D131 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD2ACB32CF9198C000ABDEE /* FirebaseFunctions in Frameworks */,
+				BCD2ACB12CF90EE8000ABDEE /* FirebaseCore in Frameworks */,
+				BCD2ACAF2CF90EE8000ABDEE /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +121,9 @@
 			);
 			name = "Wisdom Well";
 			packageProductDependencies = (
+				BCD2ACAE2CF90EE8000ABDEE /* FirebaseAnalytics */,
+				BCD2ACB02CF90EE8000ABDEE /* FirebaseCore */,
+				BCD2ACB22CF9198C000ABDEE /* FirebaseFunctions */,
 			);
 			productName = "Wisdom Well";
 			productReference = BC773AB72CF7B5740091D131 /* Wisdom Well.app */;
@@ -195,6 +207,9 @@
 			);
 			mainGroup = BC773AAE2CF7B5740091D131;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				BCD2ACAD2CF90EE8000ABDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BC773AB82CF7B5740091D131 /* Products */;
 			projectDirPath = "";
@@ -552,6 +567,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BCD2ACAD2CF90EE8000ABDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BCD2ACAE2CF90EE8000ABDEE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCD2ACAD2CF90EE8000ABDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		BCD2ACB02CF90EE8000ABDEE /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCD2ACAD2CF90EE8000ABDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		BCD2ACB22CF9198C000ABDEE /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BCD2ACAD2CF90EE8000ABDEE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BC773AAF2CF7B5740091D131 /* Project object */;
 }
